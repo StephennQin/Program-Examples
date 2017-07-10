@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: return0 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\UserData\TEMP\RSPB0EF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/return0.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\c++\程序例子\return0\0.cpp"
+]
+Creating command line "cl.exe @D:\UserData\TEMP\RSPB0EF.tmp" 
+Creating temporary file "D:\UserData\TEMP\RSPB0F0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/return0.pdb" /debug /machine:I386 /out:"Debug/return0.exe" /pdbtype:sept 
+".\Debug\0.obj"
+]
+Creating command line "link.exe @D:\UserData\TEMP\RSPB0F0.tmp"
+<h3>Output Window</h3>
+Compiling...
+0.cpp
+F:\c++\程序例子\return0\0.cpp(8) : warning C4715: 'isstop' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+return0.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

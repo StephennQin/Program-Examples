@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 禁忌搜索N出去T的运算实现 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\UserData\TEMP\RSP7386.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/禁忌搜索N出去T的运算实现.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\c++\程序例子\禁忌搜索N出去T的运算实现\try.cpp"
+]
+Creating command line "cl.exe @D:\UserData\TEMP\RSP7386.tmp" 
+<h3>Output Window</h3>
+Compiling...
+try.cpp
+f:\c++\程序例子\禁忌搜索n出去t的运算实现\try.cpp(29) : error C2374: 'i' : redefinition; multiple initialization
+        f:\c++\程序例子\禁忌搜索n出去t的运算实现\try.cpp(20) : see declaration of 'i'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+try.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
